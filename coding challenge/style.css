@@ -1,0 +1,66 @@
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 100px;
+}
+
+header, nav {
+    text-align: center;
+}
+
+nav {
+    background-color: lawngreen;
+    padding: 9px;
+}
+
+main {
+    color: white;
+}
+
+.scooter {
+    margin-top: 25px;
+}
+
+.scooter :nth-child(2) {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.scooter :nth-child(3) {
+    font-size: 18px;
+    display: block;
+    margin-top: 4px;
+    font-weight: lighter;
+}
+
+.battery{
+    background-color: rgb(253, 204, 40);
+    width: 230px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.battery1{
+    background-color: rgb(92, 204, 0);
+    width: 400px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.battery2{
+    background-color: rgb(197, 72, 0);
+    width: 120px;
+    padding: 12px;
+    border-radius: 5px;
+}
+#titolo {
+    color: lawngreen;
+}
