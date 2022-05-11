@@ -1,16 +1,8 @@
+/* Generics */
 body {
     background-image: url(img/background.jpg);
     background-size: cover;
     font-family: sans-serif;
-}
-
-.container{
-    width: 50%;
-    margin: auto;
-    margin-top: 20px;
-    background-color: rgba(0, 0, 0, 0.6);
-    border-radius: 20px;
-    padding: 100px;
 }
 
 header, nav {
@@ -26,8 +18,24 @@ main {
     color: white;
 }
 
+/* Utils */
+.container{
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding: 100px;
+}
+
+/* Header */
+#titolo {
+    color: lawngreen;
+}
+
+/* Main */
 .scooter {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 .scooter :nth-child(2) {
@@ -42,25 +50,22 @@ main {
     font-weight: lighter;
 }
 
+/* Battery */
 .battery{
+    margin-top: 5px;
+    padding: 12px;
+    border-radius: 5px;
+}
+.medium{
     background-color: rgb(253, 204, 40);
     width: 230px;
-    padding: 12px;
-    border-radius: 5px;
 }
 
-.battery1{
+.charge{
     background-color: rgb(92, 204, 0);
     width: 400px;
-    padding: 12px;
-    border-radius: 5px;
 }
-.battery2{
+.discharge{
     background-color: rgb(197, 72, 0);
     width: 120px;
-    padding: 12px;
-    border-radius: 5px;
-}
-#titolo {
-    color: lawngreen;
 }
